@@ -16,8 +16,8 @@
 
 </script>
 
-<Map {creches}></Map>
-    
+<div><Map  {creches}></Map></div>
+    <h1>a</h1>
 
 <style>
   :global(.map) {
