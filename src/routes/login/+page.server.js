@@ -1,5 +1,7 @@
 import axios from "axios";
 import {userStore} from "../../stores.js";
+import {redirect} from "@sveltejs/kit";
+
 export const actions = {
     default: async ({ request }) => {
         const formData = await request.formData();
@@ -25,7 +27,7 @@ export const actions = {
 
         if (user?.data) {
             userStore.set(user.data);
-            return { success: true }
+            throw redirect(302, '/dashboard')
         }
 
         return { success: false, error: "Credenciais Invalidas"}
