@@ -23,5 +23,9 @@
 		"tailwindcss": "^3.3.3",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"flowbite-svelte": "^0.44.18",
+		"svelte-maplibre": "^0.5.0"
+	}
 }

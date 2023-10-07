@@ -1,6 +1,7 @@
 <script>
     import MapMarker from "../../lib/components/MapMarker.svelte"
     import {MapLibre, Marker} from 'svelte-maplibre';
+    import { WidgetPlaceholder, CardPlaceholder   } from 'flowbite-svelte';
     let cep_input = 89010025;
     const randomInteger = (min, max) => (Math.random() * (max - min + 1)) + min;
     class Creche {
@@ -37,8 +38,10 @@
 </script>
 
 <input type="text" bind:value={cep_input}/>
-<button on:click={()=>{console.log(getCoords(cep_input));
+<button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" on:click={()=>{console.log(getCoords(cep_input));
 }}>oi</button>
+<CardPlaceholder ></CardPlaceholder>
+<WidgetPlaceholder />
 <div>
     <MapLibre 
         center={[-22.4187,-42.9713]}
