@@ -11,8 +11,8 @@
 <Marker {lngLat} class="grid place-items-center bg-">
     <a href="/escola/{creche.id}">
         <div class="flex justify-center items-center">
-            <img  src={MapIcon}/>
+            <img alt="Marcador {creche.name}" src={MapIcon}/>
         </div>
-        <div><b>{creche.nome}</b></div>
+        <div><b>{creche.name}</b></div>
     </a>
 </Marker>
