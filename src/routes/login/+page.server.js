@@ -12,7 +12,7 @@ export const actions = {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: backendUrl + '/auth/login',
+            url: backendUrl + 'auth/login',
             headers: {
                 'Content-Type': 'application/json'
             },
