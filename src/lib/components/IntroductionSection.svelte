@@ -22,9 +22,9 @@
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jardim da Aprendizagem</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">O Jardim da Aprendizagem é o lugar onde a educação e o cuidado se unem para criar o ambiente perfeito para o crescimento de seu filho. Somos uma creche dedicada a proporcionar um início sólido na jornada de aprendizado de cada criança</p>
-                    <a href="/404" class="transition motion-safe:animate-pulse hover:animate-none cursor-help inline-flex items-center px-3 py-2 text-sm border border-gray-300 font-semibold text-center text-black bg-white rounded-lg hover:bg-gray-100 focus:ring-gray-200 focus:outline-none focus:ring-gray-200 dark:border-gray-600">
-                        Saiba Mais
-                         <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <a href="/404" class="transition motion-safe:animate-pulse hover:animate-none cursor-help inline-flex items-center px-3 py-2 text-sm border border-gray-300 font-semibold text-center text-black bg-white rounded-lg hover:bg-gray-100 focus:ring-gray-200 focus:outline-none focus:ring-gray-200 dark:border-gray-600">
+                            Saiba Mais
+                        <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
                     </a>
