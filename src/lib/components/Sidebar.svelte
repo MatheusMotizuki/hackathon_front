@@ -1,5 +1,6 @@
 <script>
     import {dashboardSelected} from "../../stores.js";
+    import {goto} from "$app/navigation";
 </script>
 
 

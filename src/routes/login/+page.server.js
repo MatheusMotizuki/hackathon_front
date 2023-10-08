@@ -1,6 +1,7 @@
 import axios from "axios";
 import {userStore} from "../../stores.js";
 import {redirect} from "@sveltejs/kit";
+import {backendUrl} from "$lib/server/constants.js";
 
 export const actions = {
     default: async ({ request }) => {
@@ -11,7 +12,7 @@ export const actions = {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://10.0.7.10:8080/api/v1/auth/login',
+            url: backendUrl + '/auth/login',
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -22,6 +23,7 @@ export const actions = {
         };
 
         let user = await axios.request(config).catch((error) => {
+            console.log(error.message)
             return { success: false, error: error.message}
         })
 
