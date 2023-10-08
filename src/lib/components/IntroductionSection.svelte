@@ -12,7 +12,7 @@
                 </a>
             </div>
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex justify-end">
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg">
                 <a href="/404" class="hover:shadow-lg">
                     <img class="rounded-t-lg" src="/src/lib/assets/image1.jpg" alt="" />
