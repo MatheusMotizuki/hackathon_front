@@ -15,7 +15,7 @@
               <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
                 <div class="md:col-span-5">
                   <label for="full_name">Nome da escola</label>
-                  <input type="text" name="nome_da_escola" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="C.E Jardim do Aprendizado"value="" />
+                  <input type="text" name="nome_da_escola" id="nome_completo" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="C.E Jardim do Aprendizado"value="" />
                 </div>
   
                 <div class="md:col-span-5">

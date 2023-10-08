@@ -16,7 +16,7 @@
     <div class="h-full px-3 py-4 overflow-y-auto bg-gray-100 dark:bg-gray-800">
         <a href="/" class="flex items-center pl-2.5 mb-5">
             <img src="{logo}" class="h-6 mr-3 sm:h-7" alt="EducaFácil Logo">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-900"></span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-900">EducaFácil</span>
         </a>
         <ul class="space-y-2 font-medium">
             <li>
