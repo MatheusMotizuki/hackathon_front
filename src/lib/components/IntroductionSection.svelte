@@ -2,7 +2,7 @@
     <div class="grid max-w-screen-2xl px-4 pt-20 pb-9 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl leading-none tracking-tight md:text-6xl xl:text-6xl text-violet-900 font-mono antialiased font-bold">Já escolheu a escola<br>para o seu filho?</h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-2xl dark:text-gray-400">Encontre a Creche Perfeita, Crie um Futuro Brilhante!</p>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-2xl dark:text-gray-400">Encontre a escola perfeita, crie um futuro brilhante!</p>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                 <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@example.com" target="_blank" class="cursor-help shadow-lg inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 bg-white">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 256 193"><path fill="#4285F4" d="M58.182 192.05V93.14L27.507 65.077L0 49.504v125.091c0 9.658 7.825 17.455 17.455 17.455h40.727Z"/><path fill="#34A853" d="M197.818 192.05h40.727c9.659 0 17.455-7.826 17.455-17.455V49.505l-31.156 17.837l-27.026 25.798v98.91Z"/><path fill="#EA4335" d="m58.182 93.14l-4.174-38.647l4.174-36.989L128 69.868l69.818-52.364l4.669 34.992l-4.669 40.644L128 145.504z"/><path fill="#FBBC04" d="M197.818 17.504V93.14L256 49.504V26.231c0-21.585-24.64-33.89-41.89-20.945l-16.292 12.218Z"/><path fill="#C5221F" d="m0 49.504l26.759 20.07L58.182 93.14V17.504L41.89 5.286C24.61-7.66 0 4.646 0 26.23v23.273Z"/></svg> Email para contato
@@ -19,9 +19,9 @@
                 </a>
                 <div class="p-5">
                     <a href="/404">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lorem ipsum</h5>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jardim da Aprendizagem</h5>
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam odit sunt exercitationem doloribus quia, nisi nihil</p>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">O Jardim da Aprendizagem é o lugar onde a educação e o cuidado se unem para criar o ambiente perfeito para o crescimento de seu filho. Somos uma creche dedicada a proporcionar um início sólido na jornada de aprendizado de cada criança</p>
                     <a href="/404" class="transition motion-safe:animate-pulse hover:animate-none cursor-help inline-flex items-center px-3 py-2 text-sm border border-gray-300 font-semibold text-center text-black bg-white rounded-lg hover:bg-gray-100 focus:ring-gray-200 focus:outline-none focus:ring-gray-200 dark:border-gray-600">
                         Saiba Mais
                          <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
