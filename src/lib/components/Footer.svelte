@@ -3,11 +3,11 @@
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="/" class="flex items-center mb-4 sm:mb-0">
                 <img src="./src/lib/assets/logo.png" class="h-8 mr-3" alt="Lorel" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-600">Lorem</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-600">EducaFácil</span>
             </a>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">Lorem</a>. Todos os Direitos Reservados.</span>
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">EducaFácil</a>. Todos os Direitos Reservados.</span>
     </div>
 </footer>
 

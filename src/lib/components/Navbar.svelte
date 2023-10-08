@@ -4,8 +4,8 @@
 <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="flex items-center">
-            <img src="./src/lib/assets/logo.png" class="h-8 mr-3" alt="Flowbite Logo">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-600">Lorem</span>
+            <img src="./src/lib/assets/logo.png" class="h-8 mr-3" alt="Edufacil Logo">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-600">EducaFácil</span>
         </a>
         <div class="flex md:order-2">
             <button on:click={() => {goto("/user/login")}} type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-semibold rounded-lg text-sm px-5 py-2 mr-2 mb-0 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Sou Responsavel</button>
