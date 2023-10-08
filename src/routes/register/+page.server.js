@@ -16,7 +16,7 @@ export const actions = {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: backendUrl + '/auth/register',
+            url: backendUrl + 'auth/register',
             headers: {
                 'Content-Type': 'application/json'
             },
