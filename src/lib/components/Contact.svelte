@@ -1,5 +1,8 @@
 <script>
     export let school;
+
+    let text = "Entrar em contato";
+    let color = 'bg-blue-700'
 </script>
 <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800 ">
     <div class="flex flex-col w-full justify-between p-4 leading-normal">
@@ -15,9 +18,12 @@
 
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{school.cep}</p>
 
-        <button
-                class="bg-blue-700 border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white">
-            Entrar em contato
+        <button on:click={() => {
+            text = school.cellPhone
+            color = "bg-green-700"
+        }}
+                class="{color} border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white">
+            {text}
         </button>
     </div>
 </div>

@@ -15,7 +15,7 @@
         {lngLat}
         class="border-gray-200 border shadow-2xl focus:outline-2 focus:outline-black w-8 h-8 bg-red-300 text-black rounded-full grid place-items-center"
 >
-    <Popup openOn="hover" offset={[0, -10]}>
+    <Popup openOn="hover" offset={[10, -10]}>
         <Contact {school}/>
     </Popup>
 </Marker>

@@ -1,1 +1,1 @@
-export const backendUrl = "http://api.daytheipc.com/api/v1/"
+export const backendUrl = "http://10.0.7.10:8080/api/v1/"
