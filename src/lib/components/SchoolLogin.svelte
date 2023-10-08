@@ -29,6 +29,9 @@
 				<div class="px-4 pb-2 pt-4">
 					<button class="uppercase block w-full p-4 text-lg rounded-lg bg-violet-600 hover:bg-violet-900 focus:outline-none">Logar</button>
 				</div>
+				<p class="text-sm font-light text-gray-500 dark:text-gray-400">
+					Não tem uma conta ainda? <a href="/school/register" class="font-medium text-violet-600 hover:underline dark:text-primary-500">Registrar</a>
+				</p>
 			</form>
 		</div>
 	</div>
