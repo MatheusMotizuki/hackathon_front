@@ -1,6 +1,6 @@
 <script>
     import Contact from "$lib/components/Contact.svelte";
-    export let schools = [];
+    export let schools;
 </script>
 
 

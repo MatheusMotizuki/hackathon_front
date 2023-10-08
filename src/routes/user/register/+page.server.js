@@ -35,7 +35,11 @@ export const actions = {
         })
 
         if (user?.data) {
-            userStore.set(user.data);
+            userStore.set({
+                id: user.data.id,
+                token: user.data.token,
+                type: 'user'
+            });
             throw redirect(302, '/user/dashboard')
         }
 

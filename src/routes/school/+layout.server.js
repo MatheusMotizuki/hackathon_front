@@ -8,3 +8,4 @@ export function load({ params }) {
     if (user.token && user.type !== 'school') throw redirect(302, '/school/login')
 }
 
+
