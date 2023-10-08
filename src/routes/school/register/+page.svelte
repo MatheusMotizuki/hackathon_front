@@ -1,5 +1,5 @@
 <script>
-    import SchoolRegister from "$lib/components/SchoolRegister.svelte";
+    import RegisterPage from "$lib/components/RegisterPage.svelte";
 </script>
 
-<SchoolRegister/>
+<RegisterPage/>
