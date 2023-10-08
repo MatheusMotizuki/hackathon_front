@@ -1,5 +1,7 @@
 <script>
     import {dashboardSelected} from "../../stores.js";
+    import logo from '$lib/assets/logo.png'
+
 </script>
 
 
@@ -13,7 +15,7 @@
 <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
     <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
         <a href="/" class="flex items-center pl-2.5 mb-5">
-            <img src="./src/lib/assets/logo.png" class="h-6 mr-3 sm:h-7" alt="Lorem Logo">
+            <img src="{logo}" class="h-6 mr-3 sm:h-7" alt="Lorem Logo">
             <span class="self-center text-2xl font-semibold whitespace-nowrap text-violet-900">Lorem</span>
         </a>
         <ul class="space-y-2 font-medium">
@@ -34,7 +36,7 @@
                 </a>
             </li>
             <li>
-                <a href="/logout" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 group">
+                <a href="/user/logout" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 group">
                     <svg class="flex-shrink-0 text-violet-600 transition duration-75 dark:text-gray-400 group-hover:text-violet-900 dark:group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h7v2H5Zm11-4l-1.375-1.45l2.55-2.55H9v-2h8.175l-2.55-2.55L16 7l5 5l-5 5Z"/>
                     </svg>

@@ -1,5 +1,5 @@
 import {get} from "svelte/store";
-import {userStore} from "../../stores.js";
+import {userStore} from "../../../stores.js";
 import axios from "axios";
 import {backendUrl} from "$lib/server/constants.js";
 import {redirect} from "@sveltejs/kit";
@@ -19,7 +19,7 @@ export async function load({ params }) {
         };
 
         let result = await axios.request(config).catch((error) => {
-            throw redirect(302, "/logout")
+            throw redirect(302, "/user/logout")
         });
         return result.data;
     }
@@ -35,7 +35,7 @@ export async function load({ params }) {
         };
 
         let result = await axios.request(config).catch((error) => {
-            throw redirect(302, "/logout")
+            throw redirect(302, "/user/logout")
         });
 
         return { latitude: result.data.latitude, longitude: result.data.longitude}

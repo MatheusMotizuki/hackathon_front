@@ -2,7 +2,7 @@
     import Map from "$lib/components/Map.svelte"
     import Sidebar from "$lib/components/Sidebar.svelte";
 
-    import {dashboardSelected} from "../../stores.js";
+    import {dashboardSelected} from "../../../stores.js";
     import ContactGrid from "$lib/components/ContactGrid.svelte";
     export let data;
 
