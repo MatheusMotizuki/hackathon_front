@@ -1,55 +1,84 @@
-<script>
-    import logo from '$lib/assets/logo.png'
-
-</script>
-
-<section class="bg-gray-50 dark:bg-gray-900">
-    <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-        <a href="#" class="flex items-center mb-6 text-6xl font-semibold text-gray-900 dark:text-white">
-            <img class="w-16 h-16 mr-4" src="{logo}" alt="logo">
-            Lorem
-        </a>
-        <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                    Crie sua conta
-                </h1>
-                <form method="POST" class="space-y-4 md:space-y-6" action="">
-                    <div>
-                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nome</label>
-                        <input type="text" name="name" id="name" placeholder="Maria Antonia" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
-                    </div>
-                    <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                        <input type="email" name="email" id="email" placeholder="exemplo@email.com"  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
-                    </div>
-                    <div>
-                        <label for="phone-number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Numero de Telefone</label>
-                        <input type="text" name="phone-number" id="phone-number" placeholder="+55 (01) 23456-7890" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
-                    </div>
-                    <div>
-                        <label for="cep" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">CEP</label>
-                        <input type="text" name="cep" id="cep" placeholder="_____-___" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
-                    </div>
-                    <div>
-                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Senha</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
-                    </div>
-                    <div class="flex items-start">
-                        <div class="flex items-center h-5">
-                            <input id="terms" aria-describedby="terms" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
-                        </div>
-                        <div class="ml-3 text-sm">
-
-                            <label for="terms" class="font-light text-gray-500 dark:text-gray-300">Eu aceito os <a class="font-medium text-violet-600 hover:underline dark:text-primary-500" href="#">Termos e Condições</a></label>
-                        </div>
-                    </div>
-                    <button type="submit" class="w-full text-white bg-violet-600 hover:bg-violet-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Crie uma conta</button>
-                    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                        Já tem uma conta? <a href="/user/login" class="font-medium text-violet-600 hover:underline dark:text-primary-500">Logar</a>
-                    </p>
-                </form>
+<div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center bg-no-repeat bg-cover" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/526/8/1002/library-interior-interior-design-books-wallpaper-preview.jpg)">
+    <div class="container max-w-screen-lg mx-auto">
+      <div>
+        <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6 shadow-lg">
+          <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+            <div class="text-gray-600">
+              <p class="font-bold text-2xl">Informações da escola.</p>
+              <p class="font-semibold">Por favor, preencha com atenção.</p>
+              <div class="w-48 h-48 pl-8 pt-6 flex">
+                  <img src="/src/lib/assets/bulb.jpg" alt=""/>
+              </div>
             </div>
+  
+            <div class="lg:col-span-2">
+              <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                <div class="md:col-span-5">
+                  <label for="full_name">Nome da escola</label>
+                  <input type="text" name="nome_da_escola" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="C.E Jardim do Aprendizado"value="" />
+                </div>
+  
+                <div class="md:col-span-5">
+                  <label for="email">Email da escola</label>
+                  <input type="text" name="email" id="email" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="exemplo@educacao.gov.br" />
+                </div>
+  
+                <div class="md:col-span-3">
+                  <label for="address">Rua</label>
+                  <input type="text" name="rua" id="address" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="Rua Carneiro Leão" />
+                </div>
+  
+                <div class="md:col-span-2">
+                  <label for="city">Cidade</label>
+                  <input type="text" name="cidade" id="cidade" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="São Paulo" />
+                </div>
+  
+                <div class="md:col-span-2">
+                  <label for="country">Região</label>
+                  <div class="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
+                    <input name="country" id="country" placeholder="São Paulo" class="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent" value="" />
+                    <button tabindex="-1" class="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600">
+                      <svg class="w-4 h-4 mx-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                      </svg>
+                    </button>
+                    <button tabindex="-1" for="show_more" class="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="m7 10l5 5l5-5H7Z"/></svg>
+                    </button>
+                  </div>
+                </div>
+  
+                <div class="md:col-span-2">
+                  <label for="state">Estado</label>
+                  <div class="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
+                    <input name="state" id="state" placeholder="Estado" class="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent" value="" />
+                    <button tabindex="-1" class="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600">
+                      <svg class="w-4 h-4 mx-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                      </svg>
+                    </button>
+                    <button tabindex="-1" for="show_more" class="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="currentColor" d="m7 10l5 5l5-5H7Z"/></svg>
+                    </button>
+                  </div>
+                </div>
+  
+                <div class="md:col-span-1">
+                  <label for="zipcode">CEP</label>
+                  <input type="text" name="CEP" id="CEP" class="transition-all flex items-center h-10 border mt-1 rounded px-4 w-full bg-gray-50" placeholder="_____-___" value="" />
+                </div>
+
+                <div class="md:col-span-5 flex justify-center">
+                  <div class="inline-flex items-end">
+                    <button class="bg-violet-600 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </div>
