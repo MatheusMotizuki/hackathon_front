@@ -5,19 +5,26 @@ import {redirect} from "@sveltejs/kit";
 export const actions = {
     default: async ({ request }) => {
         const formData = await request.formData();
-        const email = formData.get('email');
+
+        const name = formData.get('name');
+        const email = formData.get('email')
         const password = formData.get('password')
+        const cep = formData.get('cep')
+        const phoneNumber = formData.get('phone-number')
 
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://10.0.7.10:8080/api/v1/auth/login',
+            url: 'http://10.0.7.10:8080/api/v1/auth/register',
             headers: {
                 'Content-Type': 'application/json'
             },
             data : JSON.stringify({
+                name: name,
                 email: email,
-                password: password
+                password: password,
+                cep: cep,
+                phoneNumber: phoneNumber
             })
         };
 
@@ -30,6 +37,6 @@ export const actions = {
             throw redirect(302, '/dashboard')
         }
 
-        return { success: false, error: "Credenciais Invalidas"}
+
     },
 };
