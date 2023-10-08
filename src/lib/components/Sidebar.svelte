@@ -1,6 +1,5 @@
 <script>
     import {dashboardSelected} from "../../stores.js";
-    import {goto} from "$app/navigation";
 </script>
 
 
@@ -19,7 +18,7 @@
         </a>
         <ul class="space-y-2 font-medium">
             <li>
-                <a href="#" on:click={() => dashboardSelected.set('Maps')} class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="#" on:click={() => dashboardSelected.set('Maps')} class="flex items-center p-2 text-gray-900 rounded-lg  dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 group">
                     <svg class="flex-shrink-0 text-violet-600 transition duration-75 dark:text-gray-400 group-hover:text-violet-900 dark:group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M12 2C7.589 2 4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12c0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4z"/>
                     </svg>
@@ -27,7 +26,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" on:click={() => dashboardSelected.set('List')} class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="#" on:click={() => dashboardSelected.set('List')} class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 group">
                     <svg class="flex-shrink-0 text-violet-600 transition duration-75 dark:text-gray-400 group-hover:text-violet-900 dark:group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 48 48"><mask id="ipSNotebook0"><g fill="none" stroke-linejoin="round" stroke-width="4"><path fill="#fff" stroke="#fff" d="M10 6a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v36a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V6Z"/><path stroke="#000" stroke-linecap="round" d="M34 6v36"/>
                         <path stroke="#fff" stroke-linecap="round" d="M6 14h8M6 24h8M6 34h8M27 4h12M27 44h12"/></g></mask><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipSNotebook0)"/>
                     </svg>
@@ -35,7 +34,7 @@
                 </a>
             </li>
             <li>
-                <a href="/logout" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <a href="/logout" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 group">
                     <svg class="flex-shrink-0 text-violet-600 transition duration-75 dark:text-gray-400 group-hover:text-violet-900 dark:group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h7v2H5Zm11-4l-1.375-1.45l2.55-2.55H9v-2h8.175l-2.55-2.55L16 7l5 5l-5 5Z"/>
                     </svg>

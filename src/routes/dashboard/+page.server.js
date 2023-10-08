@@ -21,7 +21,6 @@ export async function load({ params }) {
         let result = await axios.request(config).catch((error) => {
             throw redirect(302, "/logout")
         });
-
         return result.data;
     }
     async function getUserCoords() {

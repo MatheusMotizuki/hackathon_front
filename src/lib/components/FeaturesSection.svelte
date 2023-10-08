@@ -10,7 +10,6 @@
         <div class="mb-8 lg:mb-16">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white flex justify-center">Nossa Missão</h2>
                 <h1 class="font-semibold flex justify-center text-2xl">Ajudar você à encontrar a melhor creche na sua região.</h1>
-                <h1 class="font-semibold delay-150 line-through flex justify-center text-2xl">Desperdiçar o seu tempo.</h1>
                 <h1 class="font-semibold flex justify-center text-2xl">Contribuir para o futuro da sua familia.</h1>
             <p class="text-gray-500 sm:text-xl dark:text-gray-400"></p>
         </div>

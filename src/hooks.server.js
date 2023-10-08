@@ -8,6 +8,12 @@ const unprotectedRoutes = [...authenticationRoutes, "/"];
 export async function handle({ event, resolve }) {
     const user = get(userStore);
 
+    if (user?.token && authenticationRoutes.includes(event.url.pathname)) {
+        throw redirect(302, '/dashboard')
+    }
+
+    if (!user?.token && !unprotectedRoutes.includes(event.url.pathname)) throw redirect(302, '/login')
+
 
     return await resolve(event);
 }

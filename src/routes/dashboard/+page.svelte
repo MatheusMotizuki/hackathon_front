@@ -11,7 +11,7 @@
 <Sidebar>
     <span slot="main">
         {#if $dashboardSelected === 'Maps'}
-        <Map userCoords={data.userCoords} schools={data.schools}/>
+            <Map userCoords={data.userCoords} schools={data.schools}/>
         {/if}
         {#if $dashboardSelected === 'List'}
             <ContactGrid/>
