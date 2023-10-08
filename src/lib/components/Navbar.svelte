@@ -23,7 +23,7 @@
                     <a href="/404" class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent hover:text-violet-900 md:text-violet-600 md:p-0 md:dark:text-violet-600" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="/404" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-violet-600 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre</a>
+                    <a href="#features" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-violet-600 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre</a>
                 </li>
                 <li>
                     <a href="/404" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:hover:text-violet-600 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Serviços</a>

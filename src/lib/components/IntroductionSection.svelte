@@ -1,4 +1,4 @@
-<section class="bg-gray-200 dark:bg-gray-900">
+<section id="intro" class="bg-gray-200 dark:bg-gray-900">
     <div class="grid max-w-screen-2xl px-4 pt-20 pb-9 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl leading-none tracking-tight md:text-6xl xl:text-6xl text-violet-900 font-mono antialiased font-bold">Já escolheu a escola<br>para o seu filho?</h1>
